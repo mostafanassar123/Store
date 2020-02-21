@@ -39,7 +39,7 @@ export default () => {
       <ParentImg>
         <IconImg src={IconAbout} alt="IconAbout" />
       </ParentImg>
-      <StyledCollapse defaultActiveKey={[]} onChange={callback}>
+      <StyledCollapse defaultActiveKey={["1"]} onChange={callback}>
         <StyledPanel header="Mission" key="1">
           <p>
             To be the most eminent outlet that offers consumers variety of
