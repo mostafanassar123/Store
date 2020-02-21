@@ -4,7 +4,7 @@ import { ListItem, ListItemLink } from "./styled";
 const ItemLink = ({ to, name, activeLink, onClick }) => {
   let pathTo = to;
   if (!to) {
-    pathTo = `/${name}`;
+    pathTo = `/${name}`.replace(" ", "");
   }
 
   const handlePress = () => {

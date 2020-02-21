@@ -34,7 +34,7 @@ export const PriceStatement = styled.span`
   color: #666666;
 `;
 export const Button = styled.div`
-  disply: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;

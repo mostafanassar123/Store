@@ -15,9 +15,9 @@ function HeaderItems() {
       <ItemLink name="Products" activeLink={activeLink} onClick={onClick} />
       <ItemLink name="Brands" activeLink={activeLink} onClick={onClick} />
       <ItemLink name="Favourites" activeLink={activeLink} onClick={onClick} />
-      <ItemLink name="WhyNassar" activeLink={activeLink} onClick={onClick} />
-      <ItemLink name="AboutUs" activeLink={activeLink} onClick={onClick} />
-      <ItemLink name="ContactUs" activeLink={activeLink} onClick={onClick} />
+      <ItemLink name="Why Nassar" activeLink={activeLink} onClick={onClick} />
+      <ItemLink name="About Us" activeLink={activeLink} onClick={onClick} />
+      <ItemLink name="Contact Us" activeLink={activeLink} onClick={onClick} />
     </List>
   );
 }

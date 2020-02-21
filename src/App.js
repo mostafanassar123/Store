@@ -6,8 +6,8 @@ import Products from "./Pages/Products";
 import Brands from "./Pages/Brands";
 import Favourites from "./Pages/Favourites";
 import WhyNassar from "./Pages/WhyNassar";
-import AboutUs from "./Pages/AboutUs";
-import ContactUs from "./Pages/ContactUs";
+import AboutUs from "./components/aboutus/index";
+import ContactUs from "./Pages/contactUs";
 import PageWrapper from "./components/PageWrapper";
 import Foter from "./components/footer";
 
